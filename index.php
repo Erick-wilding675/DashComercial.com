@@ -1,10 +1,14 @@
 <?php
-// Lê o arquivo de dados
+// ==========================================================
+// index.php - Tela de login do sistema de relatórios
+// ==========================================================
+
+// Lê o arquivo de dados com os usuários e senhas válidos
 $dados = [];
-$blocos = preg_split("/\r?\n\r?\n/", file_get_contents("dados.txt"));
+$blocos = preg_split("/\r?\n\r?\n/", file_get_contents("dados.txt")); // Separa blocos por linha em branco
 
 foreach ($blocos as $bloco) {
-    $linhas = preg_split("/\r?\n/", trim($bloco));
+    $linhas = preg_split("/\r?\n/", trim($bloco)); // Separa cada linha do bloco
     $usuario = '';
     $senha = '';
     foreach ($linhas as $linha) {
@@ -14,17 +18,23 @@ foreach ($blocos as $bloco) {
             $senha = trim(substr($linha, strlen("Senha:")));
         }
     }
+    // Associa usuário e senha se ambos estiverem preenchidos
     if ($usuario && $senha) {
         $dados[$usuario] = $senha;
     }
 }
 
+// Variável de erro para mensagens de login inválido
 $erro = '';
+
+// Verifica se o formulário foi enviado
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $usuarioInput = trim($_POST['usuario'] ?? '');
     $senhaInput = trim($_POST['senha'] ?? '');
 
+    // Verifica se usuário existe e se a senha confere
     if (isset($dados[$usuarioInput]) && $dados[$usuarioInput] === $senhaInput) {
+        // Envia para a página de redirecionamento via POST escondido
         echo '
         <form id="redirecionar" method="post" action="redirecionar.php">
           <input type="hidden" name="usuario" value="'.htmlspecialchars($usuarioInput).'">
@@ -37,6 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+<!-- =================== HTML =================== -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -45,6 +56,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <title>Acesso ao Relatório Comercial</title>
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- =================== Estilo CSS =================== -->
   <style>
     html, body {
       margin: 0;
@@ -81,25 +94,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       width: 350px;
       z-index: 1;
     }
-    h1 {
-      margin-bottom: 5px;
-      font-size: 24px;
+    h1, h2, p {
       color: rgba(1, 42, 71, 0.85);
+    }
+    h1 {
+      font-size: 24px;
       font-weight: 700;
+      margin-bottom: 5px;
     }
     h2 {
-      margin-top: 0;
       font-size: 16px;
-      color: rgba(1, 42, 71, 0.85);
       font-weight: 500;
+      margin-top: 0;
     }
     p {
-      margin: 15px 0 10px;
       font-size: 14px;
-      color: rgba(3, 61, 103, 0.85);
+      margin: 15px 0 10px;
     }
-    input,
-    button {
+    input, button {
       width: 100%;
       box-sizing: border-box;
     }
@@ -137,19 +149,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
 
+  <!-- Logo -->
   <div class="logo-container">
     <img src="Cirurgia Segura - Logo Branca.png" alt="Logo Cirurgia Segura">
   </div>
 
+  <!-- Formulário de Login -->
   <div class="login-box">
     <h1>Acesso ao Relatório Comercial</h1>
     <h2>Corretor/Plataforma</h2>
     <p>Preencha os campos para acessar as informações</p>
 
+    <!-- Mensagem de erro -->
     <?php if ($erro): ?>
       <p class="error"><?= htmlspecialchars($erro) ?></p>
     <?php endif; ?>
 
+    <!-- Formulário de entrada -->
     <form method="post">
       <input type="text" name="usuario" placeholder="Usuário" required />
       <input type="password" name="senha" placeholder="Senha" required />
