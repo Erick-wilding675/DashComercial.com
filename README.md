@@ -1,2 +1,8 @@
-# DashComercial.com
-Este é o projeto de uma página da web dedicada aos clientes do Cirurgia Segura. Ela redireciona, com base em credenciais específicas, os corretores e plataformas, aos seus respectivos Dashes do Power BI, para acompanhamento de dados financeiros e administrativos.
+# ARQUIVOS PHP E IMAGEM
+Pasta de arquivos php e png do projeto.
+## INDEX
+Arquivo direcionado à interfaçe e como objetivo de hospedagem web
+## REDIRECIONAR
+Arquivo direcionado ao processo de redirecionamento (botão "Entrar") de cada usuário com base em suas credenciais.
+## LOGOUT
+Arquivo direcionado ao processo de desligamento automático do usuário ao acessar o link mascarado de seu respectivo DashBoard em outra guia da web.
