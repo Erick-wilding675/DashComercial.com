@@ -30,12 +30,12 @@
  > Codifica a URL para não deixá-la explícita no HTML.
 
  5. Exibição via iframe
-        <iframe id="myIframe" allowfullscreen></iframe>
-        <script>
-        const encodedUrl = "<?= $encodedUrl ?>";
-        const url = atob(encodedUrl);
-        document.getElementById('myIframe').src = url;
-        </script>
+    <iframe id="myIframe" allowfullscreen></iframe>
+    <script>
+    const encodedUrl = "<?= $encodedUrl ?>";
+    const url = atob(encodedUrl);
+    document.getElementById('myIframe').src = url;
+    </script>
  > A URL é decodificada no navegador e embutida num iframe, que exibe o relatório.
 
 ## Pontos de Atenção
