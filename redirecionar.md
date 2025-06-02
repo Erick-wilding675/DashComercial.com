@@ -2,14 +2,14 @@
  Este arquivo redireciona o usuário autenticado para o link correspondente ao seu login, baseado em uma lista pré-definida de URLs associadas a cada usuário.
 
 ## Funcionamento do Código
- 1. Validação do Método e Dados
+### 1. Validação do Método e Dados
         if ($_SERVER['REQUEST_METHOD'] !== 'POST' || empty($_POST['usuario'])) {
         header("Location: index.php");
         exit;
         } 
  > Garante que o acesso foi feito via POST e que o nome do usuário está presente. Se não estiver, o usuário é redirecionado de volta ao login (index.php).
 
- 2. Associação Usuário → Relatório
+### 2. Associação Usuário → Relatório
         $destinos = [
             "usuario1" => "link1",
             "usuario2" => "link2",
@@ -17,7 +17,7 @@
         ];
  > Lista que mapeia usuários a seus respectivos links do Power BI. Usuários sem link têm valor vazio ("") e receberão uma mensagem de erro.
 
- 3. Verificação e Redirecionamento
+ ### 3. Verificação e Redirecionamento
         $url = $destinos[$usuario] ?? '';
         if (!$url) {
         echo "Relatório não encontrado para este usuário.";
@@ -25,11 +25,11 @@
         }
  > Se não houver link associado ao usuário, exibe uma mensagem de erro.
 
- 4. Proteção da URL com Base64
+ ### 4. Proteção da URL com Base64
         $encodedUrl = base64_encode($url);
  > Codifica a URL para não deixá-la explícita no HTML.
 
- 5. Exibição via iframe
+ ### 5. Exibição via iframe
     <iframe id="myIframe" allowfullscreen></iframe>
     <script>
     const encodedUrl = "<?= $encodedUrl ?>";
