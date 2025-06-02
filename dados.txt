@@ -1,0 +1,107 @@
+Usuário: admteste
+Senha: adm123
+Link: https://app.powerbi.com/view?r=eyJrIjoiYmM3NDUxZDItN2IzOS00ODk0LThkNjYtZDRjN2VjZDA3ZjNjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: marcos
+Senha: marcos123
+Link: https://app.powerbi.com/view?r=eyJrIjoiYzI1NGMwNzItZjQwZi00YzI2LTg3ZTYtMmNmNmRkYTBjNzNiIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: acaff
+Senha: Accaff@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiNTc2OGUyYTItZWVkZS00YmFhLWFkMDEtOTE0ZmEyZjExNDViIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: seguremed
+Senha: SegMed@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiZjVkNGEzNzYtMzdkZC00NzI5LTkzYzEtNjJlYzZhNTY4Yjg0IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: paganiniadm
+Senha: Paganini@CS2025
+Link: 
+
+Usuário: meliusconsultoria
+Senha: Melius@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiNGIxMDQ2M2UtMjZiYy00NDM4LTgzZWMtYWE4M2ZiMWYzZGFjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: renatoRD
+Senha: RD@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiM2I3OTU3ODAtZmMyYi00NTJhLWIxMjctOTU5ODE3NmJkNGUwIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: montioli
+Senha: Montini@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiNjUzOGI2MjYtNzBmZS00MjQ1LWFmN2ItNGRkYTEwN2YwZjA2IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
+
+Usuário: gurgel
+Senha: aiagurgel@CS2025
+Link: 
+
+Usuário: cleiarodrigues
+Senha: cleia@CS2025
+Link: 
+
+Usuário: medicinasegura
+Senha: MedSeg@CS2025
+Link: 
+
+Usuário: attielucidos
+Senha: Attie@CS2025
+Link: 
+
+Usuário: jarbas
+Senha: classic@CS2025
+Link: 
+
+Usuário: reinaldogomes
+Senha: Reinaldo@CS2025
+Link: 
+
+Usuário: rejane
+Senha: rejanemartins@CS2025
+Link: 
+
+Usuário: raquellima
+Senha: Raquel@CS2025
+Link: 
+
+Usuário: edimar
+Senha: larrossas@CS2025
+Link: 
+
+Usuário: cleidiocorretora
+Senha: cleidio@CS2025
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
+
+Usuário: 
+Senha: 
+Link: 
