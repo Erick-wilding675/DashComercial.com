@@ -10,12 +10,17 @@
  - Interface responsiva e leve.
 
 ## Estrutura
-    index.php # Tela de login
-    redirecionar.php # Redireciona usuário com base no login
-    dados.txt # Armazena usuários e senhas (texto plano)
-    Página-entrar.jpg # Imagem de fundo da tela de login
-    Cirurgia Segura - Logo Branca.png # Logo principal
-    docs/ # Pasta com a documentação técnica
+    index.php 
+    redirecionar.php
+   > Tela de login e redirecionamento
+
+    dados.txt 
+   > Armazena usuários e senhas (texto plano)
+
+    Página-entrar.jpg 
+    Cirurgia Segura - Logo Branca.png
+    favicon.ico
+   > Imagens
 
 
 ## ⚙️ Como Rodar
