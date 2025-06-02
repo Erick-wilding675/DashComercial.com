@@ -16,7 +16,7 @@ Link: https://app.powerbi.com/view?r=eyJrIjoiZjVkNGEzNzYtMzdkZC00NzI5LTkzYzEtNjJ
 
 Usuário: paganiniadm
 Senha: Paganini@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiZmQ4MjE4YWQtN2IwZi00NjlhLWJjODktNjYyODFjZTZmNWU5IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: meliusconsultoria
 Senha: Melius@CS2025
@@ -32,43 +32,43 @@ Link: https://app.powerbi.com/view?r=eyJrIjoiNjUzOGI2MjYtNzBmZS00MjQ1LWFmN2ItNGR
 
 Usuário: gurgel
 Senha: aiagurgel@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiOGUyZGE5ZjAtOTA0OC00ODk2LWFkYzQtYTY4NjJkNDFhMmNhIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: cleiarodrigues
 Senha: cleia@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiMmU0MTA1ODEtMDc5OC00NWRjLTkxMjYtMWVlMjdkMWIwNjNiIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: medicinasegura
 Senha: MedSeg@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiMzEwZDI2ZDItYjE0Mi00YmQ0LWJlZmItZGIwZDM5MmU3ZTkzIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: attielucidos
 Senha: Attie@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiZTk5MDAwZmEtMzExZS00ZTI4LTg2NTgtNzJiMjJhMjM3OGM4IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: jarbas
 Senha: classic@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiYjJmNmRkOTUtM2U0Yy00NzNiLTg2MGUtZDNjNjAzMjAzMjNlIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: reinaldogomes
 Senha: Reinaldo@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiOTRkZDE2YjYtMTMzYS00ZDYzLTkzZTItYzg1Y2E3MjhhNjIxIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: rejane
 Senha: rejanemartins@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiOTc4NmY3MmEtMThmMS00MzEwLWIyYzEtODIyMTkxYjg0YmI2IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: raquellima
 Senha: Raquel@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiM2E5MWE5NjAtYTEzYy00MDg0LWFmODYtNjBkZjdmYzJmMTBjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: edimar
 Senha: larrossas@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiOWJmMDI5YTEtOTM1OS00ODYxLTk0YjEtYTZhZjVlMjc2MDc4IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: cleidiocorretora
 Senha: cleidio@CS2025
-Link: 
+Link: https://app.powerbi.com/view?r=eyJrIjoiODk4N2I1YWItNDkwYS00NDdkLWFmNTItZjUxNjE5MGM5ZjRkIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: 
 Senha: 
