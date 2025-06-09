@@ -71,11 +71,11 @@ Senha: cleidio@CS2025
 Link: https://app.powerbi.com/view?r=eyJrIjoiODk4N2I1YWItNDkwYS00NDdkLWFmNTItZjUxNjE5MGM5ZjRkIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: vanessa
-Senha: RD@CS2025
+Senha: vanessaRD@CS2025
 Link: https://app.powerbi.com/view?r=eyJrIjoiZjg3NzQxZjgtYTMxYS00OTM5LWFkZjktN2IzNjJmOTY3MjkzIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: lucas
-Senha: lucas@CS
+Senha: lucasRD@CS2025
 Link: https://app.powerbi.com/view?r=eyJrIjoiZTFhYWE3NWMtMjEwYy00NzdhLWI4ODItMTA2MjAzZTUyNzA1IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: 
