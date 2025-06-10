@@ -31,7 +31,9 @@ $destinos = [
     "raquellima" =>  "https://app.powerbi.com/view?r=eyJrIjoiM2E5MWE5NjAtYTEzYy00MDg0LWFmODYtNjBkZjdmYzJmMTBjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
     "edimar" => "https://app.powerbi.com/view?r=eyJrIjoiOWJmMDI5YTEtOTM1OS00ODYxLTk0YjEtYTZhZjVlMjc2MDc4IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
     "cleidiocorretora" =>  "https://app.powerbi.com/view?r=eyJrIjoiODk4N2I1YWItNDkwYS00NDdkLWFmNTItZjUxNjE5MGM5ZjRkIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "" => "",
+    "vanessa"=> "https://app.powerbi.com/view?r=eyJrIjoiZjg3NzQxZjgtYTMxYS00OTM5LWFkZjktN2IzNjJmOTY3MjkzIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
+    "lucas"=> "https://app.powerbi.com/view?r=eyJrIjoiZTFhYWE3NWMtMjEwYy00NzdhLWI4ODItMTA2MjAzZTUyNzA1IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
+    "fonseca"=> "https://app.powerbi.com/view?r=eyJrIjoiYTQzMTVjN2ItNTRiMS00ZTk0LWFlOGEtZWFhOTNkNTkxOTk5IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
 ];
 
 // Obtém a URL correspondente ao usuário logado
