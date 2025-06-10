@@ -78,9 +78,9 @@ Usuário: lucas
 Senha: lucasRD@CS2025
 Link: https://app.powerbi.com/view?r=eyJrIjoiZTFhYWE3NWMtMjEwYy00NzdhLWI4ODItMTA2MjAzZTUyNzA1IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
-Usuário: 
-Senha: 
-Link: 
+Usuário: fonseca
+Senha: marco@CS2025
+Link: https://app.powerbi.com/view?r=eyJrIjoiYTQzMTVjN2ItNTRiMS00ZTk0LWFlOGEtZWFhOTNkNTkxOTk5IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9
 
 Usuário: 
 Senha: 
