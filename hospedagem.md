@@ -18,8 +18,3 @@
 ### Estrutura de Diretórios no Servidor
  Os arquivos estão hospedados na pasta padrão do domínio.
  Imagens e arquivos auxiliares como dados.txt devem estar na mesma pasta que os arquivos .php.
-
-## Dicas de Manutenção
- Atualizações: Faça o upload manual via o painel de controle ou via FTP (usar filezilla com as credenciais da conta).
- Segurança: Não exponha arquivos como dados.txt publicamente. Use regras .htaccess se necessário.
- Backups: É altamente recomendado manter backups regulares dos arquivos e da base de dados de login.
