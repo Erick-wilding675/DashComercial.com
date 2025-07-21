@@ -13,27 +13,9 @@ $usuario = $_POST['usuario'];
 
 // Mapeia os usuários aos respectivos links de relatório no Power BI
 $destinos = [
-    "admteste" => "https://app.powerbi.com/view?r=eyJrIjoiYmM3NDUxZDItN2IzOS00ODk0LThkNjYtZDRjN2VjZDA3ZjNjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "marcos" => "https://app.powerbi.com/view?r=eyJrIjoiYzI1NGMwNzItZjQwZi00YzI2LTg3ZTYtMmNmNmRkYTBjNzNiIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "acaff" => "https://app.powerbi.com/view?r=eyJrIjoiNTc2OGUyYTItZWVkZS00YmFhLWFkMDEtOTE0ZmEyZjExNDViIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "seguremed" => "https://app.powerbi.com/view?r=eyJrIjoiZjVkNGEzNzYtMzdkZC00NzI5LTkzYzEtNjJlYzZhNTY4Yjg0IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "paganiniadm" => "https://app.powerbi.com/view?r=eyJrIjoiZmQ4MjE4YWQtN2IwZi00NjlhLWJjODktNjYyODFjZTZmNWU5IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "meliusconsultoria" => "https://app.powerbi.com/view?r=eyJrIjoiNGIxMDQ2M2UtMjZiYy00NDM4LTgzZWMtYWE4M2ZiMWYzZGFjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "renatoRD" => "https://app.powerbi.com/view?r=eyJrIjoiM2I3OTU3ODAtZmMyYi00NTJhLWIxMjctOTU5ODE3NmJkNGUwIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",    
-    "montioli" => "https://app.powerbi.com/view?r=eyJrIjoiNjUzOGI2MjYtNzBmZS00MjQ1LWFmN2ItNGRkYTEwN2YwZjA2IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "gurgel" => "https://app.powerbi.com/view?r=eyJrIjoiOGUyZGE5ZjAtOTA0OC00ODk2LWFkYzQtYTY4NjJkNDFhMmNhIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "cleiarodrigues" => "https://app.powerbi.com/view?r=eyJrIjoiMmU0MTA1ODEtMDc5OC00NWRjLTkxMjYtMWVlMjdkMWIwNjNiIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "medicinasegura" => "https://app.powerbi.com/view?r=eyJrIjoiMzEwZDI2ZDItYjE0Mi00YmQ0LWJlZmItZGIwZDM5MmU3ZTkzIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "attielucidos" => "https://app.powerbi.com/view?r=eyJrIjoiZTk5MDAwZmEtMzExZS00ZTI4LTg2NTgtNzJiMjJhMjM3OGM4IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "jarbas" => "https://app.powerbi.com/view?r=eyJrIjoiYjJmNmRkOTUtM2U0Yy00NzNiLTg2MGUtZDNjNjAzMjAzMjNlIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "reinaldogomes" => "https://app.powerbi.com/view?r=eyJrIjoiOTRkZDE2YjYtMTMzYS00ZDYzLTkzZTItYzg1Y2E3MjhhNjIxIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "rejane" => "https://app.powerbi.com/view?r=eyJrIjoiOTc4NmY3MmEtMThmMS00MzEwLWIyYzEtODIyMTkxYjg0YmI2IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "raquellima" =>  "https://app.powerbi.com/view?r=eyJrIjoiM2E5MWE5NjAtYTEzYy00MDg0LWFmODYtNjBkZjdmYzJmMTBjIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "edimar" => "https://app.powerbi.com/view?r=eyJrIjoiOWJmMDI5YTEtOTM1OS00ODYxLTk0YjEtYTZhZjVlMjc2MDc4IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "cleidiocorretora" =>  "https://app.powerbi.com/view?r=eyJrIjoiODk4N2I1YWItNDkwYS00NDdkLWFmNTItZjUxNjE5MGM5ZjRkIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "vanessa"=> "https://app.powerbi.com/view?r=eyJrIjoiZjg3NzQxZjgtYTMxYS00OTM5LWFkZjktN2IzNjJmOTY3MjkzIiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "lucas"=> "https://app.powerbi.com/view?r=eyJrIjoiZTFhYWE3NWMtMjEwYy00NzdhLWI4ODItMTA2MjAzZTUyNzA1IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
-    "fonseca"=> "https://app.powerbi.com/view?r=eyJrIjoiYTQzMTVjN2ItNTRiMS00ZTk0LWFlOGEtZWFhOTNkNTkxOTk5IiwidCI6ImMyNjljZjdkLTAzNDgtNDZlNC04NzgyLTBmNzFmYTJkMDgwOCJ9",
+    "exemplo1" => "https://app.powerbi.com/exemplo1",
+    "exemplo2" => "https://app.powerbi.com/exemplo2",
+    "exemplo3" => "https://app.powerbi.com/exemplo3",
 ];
 
 // Obtém a URL correspondente ao usuário logado
