@@ -40,11 +40,16 @@
 
 ## Pontos de Atenção
  Segurança:	As URLs ainda podem ser acessadas se alguém inspecionar o código da página
- \nPrivacidade: Recomendado usar autenticação de sessão PHP para garantir proteção total
- \nOrganização: Seria melhor separar a lista de usuários em um arquivo próprio, como JSON
- \nUX: Quando não houver relatório, redirecionar para uma página amigável
+ 
+ Privacidade: Recomendado usar autenticação de sessão PHP para garantir proteção total
+ 
+ Organização: Seria melhor separar a lista de usuários em um arquivo próprio, como JSON
+ 
+ UX: Quando não houver relatório, redirecionar para uma página amigável
 
 ## Melhorias Sugeridas
  Evitar echo cru: Quando não há link, usar header("Location: erro.php") para uma página com design amigável.
- \nModularizar: Separar os links de usuários em um arquivo externo, por exemplo, destinos.json.
- \nProteção contra spoofing: Validar se o usuário foi realmente autenticado via $_SESSION.
+ 
+ Modularizar: Separar os links de usuários em um arquivo externo, por exemplo, destinos.json.
+ 
+ Proteção contra spoofing: Validar se o usuário foi realmente autenticado via $_SESSION.
