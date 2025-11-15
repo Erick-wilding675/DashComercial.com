@@ -1,20 +1,22 @@
-# Link de Acesso
- URL do Projeto: https://dashcomercial.wuaze.com
+# Hospedagem do Projeto
 
-### Plataforma de Hospedagem
- Serviço Utilizado: InfinityFree
- Tipo de Hospedagem: Gratuita
+Este documento descreve onde o projeto está hospedado e como a aplicação está estruturada no ambiente de deploy.
 
-### Conta de Acesso
- E-mail do Usuário: erick.mendes@cirurgiasegura.com
- Conta do Projeto: if0_39054558
+---
 
-### Acesso ao Painel da InfinityFree
- #### IMPORTANTE:
-     A senha de acesso não está listada aqui por segurança.
-     E-mail da conta: erick.mendes@cirurgiasegura.com
-     Conta: if0_39054558
+## Ambiente de Hospedagem
 
-### Estrutura de Diretórios no Servidor
- Os arquivos estão hospedados na pasta padrão do domínio.
- Imagens e arquivos auxiliares como dados.txt devem estar na mesma pasta que os arquivos .php.
+- **Serviço:** InfinityFree  
+- **Tipo de Hospedagem:** Gratuita  
+- **URL de Acesso:** https://dashcomercial.wuaze.com
+
+A aplicação está disponível publicamente apenas para demonstração.  
+Nenhuma credencial de acesso ao provedor de hospedagem é incluída neste repositório.
+
+---
+
+## Estrutura de Arquivos no Servidor
+
+Os arquivos são hospedados no diretório padrão fornecido pela plataforma.  
+A estrutura geral é a seguinte:
+
