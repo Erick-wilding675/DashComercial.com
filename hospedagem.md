@@ -19,4 +19,9 @@ Nenhuma credencial de acesso ao provedor de hospedagem é incluída neste reposi
 
 Os arquivos são hospedados no diretório padrão fornecido pela plataforma.  
 A estrutura geral é a seguinte:
-
+/public_html
+├── index.php
+├── dashboard.php
+├── dados.txt # Arquivo de dados consumido pelo script
+├── /img # Imagens utilizadas no site
+└── /css # Arquivos de estilo
